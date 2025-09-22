@@ -3,7 +3,7 @@ package server;
 import common.models.*;
 import common.network.*;
 import common.utils.*;
-
+import java.sql.SQLException;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -29,7 +29,12 @@ public class NoteSyncServer {
     
     public NoteSyncServer() {
         this.config = ConfigManager.getInstance();
-        this.noteManager = new NoteManager();
+        try {
+            this.noteManager = new NoteManager();
+        } catch (SQLException e) {
+            logger.log(Level.SEVERE, "Failed to initialize database", e);
+            throw new RuntimeException("Database initialization failed", e);
+        }
         this.clientManager = new ClientManager();
         this.threadPool = Executors.newCachedThreadPool();
         this.isRunning = false;
@@ -355,6 +360,10 @@ public class NoteSyncServer {
             }
         } catch (InterruptedException e) {
             threadPool.shutdownNow();
+        }
+        
+        if (noteManager != null) {
+            noteManager.close();
         }
         
         logger.info("Note Sync Server stopped");

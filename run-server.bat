@@ -21,7 +21,8 @@ copy config.properties build\ >nul 2>&1
 
 :: Change to build directory and run server
 cd build
-java server.NoteSyncServer
+for %%f in (h2*.jar) do set H2_JAR=%%f
+java -cp ".;%H2_JAR%" server.NoteSyncServer
 
 pause
 

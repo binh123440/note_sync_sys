@@ -226,3 +226,304 @@
 [2025-09-22 16:22:18] [INFO] [common.network.UDPConnection] UDP connection stopped
 [2025-09-22 16:22:18] [INFO] [server.ClientManager] Disconnecting all clients...
 [2025-09-22 16:22:18] [INFO] [server.ClientManager] All clients disconnected
+[2025-09-22 19:55:32] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 19:55:37] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 19:55:37] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 19:55:37] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 19:55:37] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 19:55:37] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 19:55:44] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:52904
+[2025-09-22 19:55:45] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:52904
+[2025-09-22 19:55:45] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:55:45] [INFO] [server.ClientManager] Client added: ClientInfo{id='e23990d4-6498-4f28-aa91-a23f9d5abff6', name='leo', ip='0:0:0:0:0:0:0:0:50767', online=true}
+[2025-09-22 19:55:45] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 19:55:45] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='e23990d4-6498-4f28-aa91-a23f9d5abff6', name='leo', ip='0:0:0:0:0:0:0:0:50767', online=true}
+[2025-09-22 19:55:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:55:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:55:50] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:52907
+[2025-09-22 19:55:50] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:52907
+[2025-09-22 19:55:50] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:55:50] [INFO] [server.ClientManager] Client added: ClientInfo{id='7ebd5d40-8f19-456a-8be5-77585b4e418b', name='binh', ip='0:0:0:0:0:0:0:0:50585', online=true}
+[2025-09-22 19:55:50] [INFO] [server.ClientManager] Total active clients: 2
+[2025-09-22 19:55:50] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='7ebd5d40-8f19-456a-8be5-77585b4e418b', name='binh', ip='0:0:0:0:0:0:0:0:50585', online=true}
+[2025-09-22 19:55:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:55:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:55:54] [INFO] [common.network.TCPConnection] Received message: NOTE_CREATE from /127.0.0.1:52907
+[2025-09-22 19:55:54] [INFO] [server.NoteSyncServer] Handling TCP message: NOTE_CREATE from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:55:54] [INFO] [server.NoteManager] Note added: 4eb634c9-9c46-4a68-afec-9432fb756658
+[2025-09-22 19:55:54] [INFO] [server.ClientManager] Broadcasted message type NOTE_CREATED to 2 clients
+[2025-09-22 19:55:54] [INFO] [server.NoteSyncServer] Note created: 4eb634c9-9c46-4a68-afec-9432fb756658
+[2025-09-22 19:56:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:56:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:56:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:56:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:56:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:56:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:56:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:56:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:57:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:57:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:57:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:57:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:57:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:57:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:57:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:57:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:58:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:58:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:58:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:58:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:58:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:58:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:58:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:58:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:59:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:59:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:59:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:59:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 19:59:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 19:59:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 19:59:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 19:59:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:00:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:00:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:00:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:00:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:00:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:00:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:00:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:00:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:01:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:01:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:01:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:01:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:01:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:01:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:01:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:01:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:02:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:02:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:02:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:02:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:02:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:02:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:02:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:02:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:03:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:03:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:03:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:03:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:03:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:03:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:03:50] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:03:50] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:04:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52904
+[2025-09-22 20:04:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:04:20] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:52907
+[2025-09-22 20:04:20] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:04:37] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 20:04:37] [INFO] [common.network.UDPConnection] UDP connection stopped
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] Disconnecting all clients...
+[2025-09-22 20:04:37] [INFO] [common.network.TCPConnection] Sender thread interrupted.
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] Client removed by connection: 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 20:04:37] [INFO] [server.NoteSyncServer] TCP client disconnected: /127.0.0.1:52907
+[2025-09-22 20:04:37] [INFO] [common.network.TCPConnection] TCP connection closed for /127.0.0.1:52907
+[2025-09-22 20:04:37] [INFO] [common.network.TCPConnection] Sender thread interrupted.
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] Client removed by connection: e23990d4-6498-4f28-aa91-a23f9d5abff6
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 20:04:37] [INFO] [server.NoteSyncServer] TCP client disconnected: /127.0.0.1:52904
+[2025-09-22 20:04:37] [INFO] [common.network.TCPConnection] TCP connection closed for /127.0.0.1:52904
+[2025-09-22 20:04:37] [INFO] [server.ClientManager] All clients disconnected
+[2025-09-22 20:04:57] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:05:07] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 20:05:07] [WARNING] [server.NoteSyncServer] Failed to start H2 Console
+[2025-09-22 20:05:07] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 20:05:07] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 20:05:07] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 20:05:07] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 20:05:15] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:53158
+[2025-09-22 20:05:15] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:53158
+[2025-09-22 20:05:15] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:05:15] [INFO] [server.ClientManager] Client added: ClientInfo{id='64bc7a7c-62c2-410b-8b97-15f20084bf93', name='binh', ip='0:0:0:0:0:0:0:0:53105', online=true}
+[2025-09-22 20:05:15] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 20:05:15] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='64bc7a7c-62c2-410b-8b97-15f20084bf93', name='binh', ip='0:0:0:0:0:0:0:0:53105', online=true}
+[2025-09-22 20:05:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:05:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:05:30] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:53161
+[2025-09-22 20:05:30] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:53161
+[2025-09-22 20:05:30] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:05:30] [INFO] [server.ClientManager] Client added: ClientInfo{id='f3df4163-45dc-4bd5-900e-e4a39ff86d8e', name='binh', ip='0:0:0:0:0:0:0:0:60026', online=true}
+[2025-09-22 20:05:30] [INFO] [server.ClientManager] Total active clients: 2
+[2025-09-22 20:05:30] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='f3df4163-45dc-4bd5-900e-e4a39ff86d8e', name='binh', ip='0:0:0:0:0:0:0:0:60026', online=true}
+[2025-09-22 20:05:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:05:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:05:37] [INFO] [common.network.TCPConnection] Received message: NOTE_UPDATE from /127.0.0.1:53158
+[2025-09-22 20:05:37] [INFO] [server.NoteSyncServer] Handling TCP message: NOTE_UPDATE from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:05:37] [INFO] [server.NoteManager] Note updated: 4eb634c9-9c46-4a68-afec-9432fb756658 by 7ebd5d40-8f19-456a-8be5-77585b4e418b
+[2025-09-22 20:05:37] [INFO] [server.ClientManager] Broadcasted message type NOTE_UPDATED to 2 clients
+[2025-09-22 20:05:37] [INFO] [server.NoteSyncServer] Note updated: 4eb634c9-9c46-4a68-afec-9432fb756658
+[2025-09-22 20:05:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:05:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:06:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:06:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:06:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:06:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:06:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:06:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:06:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:06:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:07:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:07:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:07:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:07:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:07:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:07:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:07:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:07:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:08:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:08:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:08:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:08:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:08:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:08:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:08:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:08:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:09:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:09:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:09:15] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:09:15] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:09:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:09:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:09:45] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:09:45] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:10:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:10:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:10:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:10:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:10:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:10:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:10:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:10:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:11:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:11:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:11:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:11:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:11:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:11:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:11:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:11:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:12:00] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:12:00] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:12:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:12:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:12:30] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:12:30] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:12:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:12:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:13:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:13:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:13:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:13:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:13:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:13:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:13:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:13:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:14:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:14:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:14:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:14:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:14:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:14:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:14:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:14:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:15:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:15:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:15:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:15:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:15:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:15:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:15:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:15:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:16:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:16:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:16:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:16:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:16:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:16:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:16:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:16:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:17:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:17:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:17:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:17:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:17:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:17:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:17:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:17:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:18:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:18:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:18:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:18:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:18:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:18:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:18:46] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:18:46] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:19:01] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:19:01] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:19:16] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53158
+[2025-09-22 20:19:16] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:19:31] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53161
+[2025-09-22 20:19:31] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:19:38] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 20:19:38] [INFO] [common.network.UDPConnection] UDP connection stopped
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] Disconnecting all clients...
+[2025-09-22 20:19:38] [INFO] [common.network.TCPConnection] Sender thread interrupted.
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] Client removed by connection: 64bc7a7c-62c2-410b-8b97-15f20084bf93
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 20:19:38] [INFO] [server.NoteSyncServer] TCP client disconnected: /127.0.0.1:53158
+[2025-09-22 20:19:38] [INFO] [common.network.TCPConnection] TCP connection closed for /127.0.0.1:53158
+[2025-09-22 20:19:38] [INFO] [common.network.TCPConnection] Sender thread interrupted.
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] Client removed by connection: f3df4163-45dc-4bd5-900e-e4a39ff86d8e
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 20:19:38] [INFO] [server.NoteSyncServer] TCP client disconnected: /127.0.0.1:53161
+[2025-09-22 20:19:38] [INFO] [common.network.TCPConnection] TCP connection closed for /127.0.0.1:53161
+[2025-09-22 20:19:38] [INFO] [server.ClientManager] All clients disconnected
+[2025-09-22 20:28:05] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:28:05] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 20:29:46] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:29:46] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 20:29:59] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:29:59] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 20:30:56] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:31:05] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 20:31:05] [WARNING] [server.NoteSyncServer] Failed to start H2 Console
+[2025-09-22 20:31:05] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 20:31:05] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 20:31:05] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 20:31:05] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 20:31:13] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:53671
+[2025-09-22 20:31:13] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:53671
+[2025-09-22 20:31:13] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:31:13] [INFO] [server.ClientManager] Client added: ClientInfo{id='09cccfad-90ba-4b08-859a-560607804653', name='123', ip='0:0:0:0:0:0:0:0:54128', online=true}
+[2025-09-22 20:31:13] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 20:31:13] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='09cccfad-90ba-4b08-859a-560607804653', name='123', ip='0:0:0:0:0:0:0:0:54128', online=true}
+[2025-09-22 20:31:13] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53671
+[2025-09-22 20:31:13] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:31:43] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53671
+[2025-09-22 20:31:43] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:32:13] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53671
+[2025-09-22 20:32:13] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:32:43] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53671
+[2025-09-22 20:32:43] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:33:13] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:53671
+[2025-09-22 20:33:13] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:33:29] [WARNING] [common.network.TCPConnection] Error in receiver thread, connection likely closed: /127.0.0.1:53671
+[2025-09-22 20:33:29] [WARNING] [server.NoteSyncServer] TCP client error: /127.0.0.1:53671
+[2025-09-22 20:33:29] [INFO] [server.ClientManager] Client removed by connection: 09cccfad-90ba-4b08-859a-560607804653
+[2025-09-22 20:33:29] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 20:33:41] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 20:33:41] [INFO] [common.network.UDPConnection] UDP connection stopped
+[2025-09-22 20:33:41] [INFO] [server.ClientManager] Disconnecting all clients...
+[2025-09-22 20:33:41] [INFO] [server.ClientManager] All clients disconnected
+[2025-09-22 20:33:46] [INFO] [server.NoteSyncServer] Note Sync Server stopped

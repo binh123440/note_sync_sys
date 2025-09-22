@@ -1,43 +1,42 @@
 @echo off
-echo Compiling Note Sync System...
+echo Compiling Note Sync System with H2 Database...
 
-:: Find and set Java path
-call :find_java
-if errorlevel 1 (
-    echo Java JDK not found!
-    echo Please install Java JDK and run setup-java.bat
-    pause
-    exit /b 1
+:: Check H2 jar
+if not exist "lib\h2*.jar" (
+    echo H2 jar not found! Download from h2database.com
+    pause & exit /b 1
 )
 
-:: Create build directory
+:: Find H2 jar
+for %%f in (lib\h2*.jar) do set H2_JAR=%%f
+set CLASSPATH=.;%H2_JAR%
+
+:: Create directories
 if not exist build mkdir build
+if not exist data mkdir data
 
-:: Compile common models
+:: Compile with H2 classpath
 echo Compiling models...
-javac -d build src\common\models\*.java
+javac -d build -cp "%CLASSPATH%" src\common\models\*.java
 if errorlevel 1 goto error
 
-:: Compile common network
 echo Compiling network classes...
-javac -d build -cp build src\common\network\*.java
+javac -d build -cp "build;%CLASSPATH%" src\common\network\*.java
 if errorlevel 1 goto error
 
-:: Compile common utils
 echo Compiling utilities...
-javac -d build -cp build src\common\utils\*.java
+javac -d build -cp "build;%CLASSPATH%" src\common\utils\*.java
 if errorlevel 1 goto error
 
-:: Compile server
 echo Compiling server...
-javac -d build -cp build src\server\*.java
+javac -d build -cp "build;%CLASSPATH%" src\server\*.java
 if errorlevel 1 goto error
 
-:: Compile client
 echo Compiling client...
-javac -d build -cp build src\client\*.java
+javac -d build -cp "build;%CLASSPATH%" src\client\*.java
 if errorlevel 1 goto error
 
+copy "%H2_JAR%" build\
 echo.
 echo Compilation successful!
 echo.

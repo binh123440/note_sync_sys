@@ -54,3 +54,9 @@ for %%P in (%JAVA_PATHS%) do (
     )
 )
 exit /b 1
+
+@echo off
+cd build
+for %%f in (h2*.jar) do set H2_JAR=%%f
+java -cp ".;%H2_JAR%" server.NoteSyncServer
+pause
