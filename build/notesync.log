@@ -527,3 +527,123 @@
 [2025-09-22 20:33:41] [INFO] [server.ClientManager] Disconnecting all clients...
 [2025-09-22 20:33:41] [INFO] [server.ClientManager] All clients disconnected
 [2025-09-22 20:33:46] [INFO] [server.NoteSyncServer] Note Sync Server stopped
+[2025-09-22 20:55:58] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:56:03] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 20:57:45] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 20:57:50] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 21:00:37] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:00:42] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 21:02:35] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:02:35] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 21:03:58] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:03:59] [SEVERE] [server.NoteSyncServer] Failed to initialize database
+[2025-09-22 21:04:35] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:04:40] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 21:04:40] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 21:04:40] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 21:04:40] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 21:04:40] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 21:04:56] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:54329
+[2025-09-22 21:04:56] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:54329
+[2025-09-22 21:04:56] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:04:56] [INFO] [server.ClientManager] Client added: ClientInfo{id='0f3b6bc4-983a-49bb-918f-dfa350a0602e', name='test', ip='0:0:0:0:0:0:0:0:58046', online=true}
+[2025-09-22 21:04:56] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 21:04:56] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='0f3b6bc4-983a-49bb-918f-dfa350a0602e', name='test', ip='0:0:0:0:0:0:0:0:58046', online=true}
+[2025-09-22 21:04:56] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54329
+[2025-09-22 21:04:56] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:05:26] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54329
+[2025-09-22 21:05:26] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:05:56] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54329
+[2025-09-22 21:05:56] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:21] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:26] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54329
+[2025-09-22 21:06:26] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:29] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:29] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:29] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:36] [INFO] [common.network.TCPConnection] Received message: NOTE_CREATE from /127.0.0.1:54329
+[2025-09-22 21:06:36] [INFO] [server.NoteSyncServer] Handling TCP message: NOTE_CREATE from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:36] [INFO] [server.NoteManager] Note added: d084e9d1-ba82-44ef-b632-6087921ef230
+[2025-09-22 21:06:36] [INFO] [server.ClientManager] Broadcasted message type NOTE_CREATED to 1 clients
+[2025-09-22 21:06:36] [INFO] [server.NoteSyncServer] Note created: d084e9d1-ba82-44ef-b632-6087921ef230
+[2025-09-22 21:06:37] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:37] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:37] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:37] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:37] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:37] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:38] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54329
+[2025-09-22 21:06:38] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:38] [INFO] [server.NoteSyncServer] Sync request handled for client: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:39] [WARNING] [common.network.TCPConnection] Error in receiver thread, connection likely closed: /127.0.0.1:54329
+[2025-09-22 21:06:39] [WARNING] [server.NoteSyncServer] TCP client error: /127.0.0.1:54329
+[2025-09-22 21:06:39] [INFO] [server.ClientManager] Client removed by connection: 0f3b6bc4-983a-49bb-918f-dfa350a0602e
+[2025-09-22 21:06:39] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 21:06:51] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 21:08:56] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:09:01] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 21:09:01] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 21:09:01] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 21:09:01] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 21:09:01] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 21:09:08] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:54492
+[2025-09-22 21:09:08] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:54492
+[2025-09-22 21:09:08] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from 52062e2b-7c78-424a-ad4f-21c5baa38ae9
+[2025-09-22 21:09:08] [INFO] [server.ClientManager] Client added: ClientInfo{id='52062e2b-7c78-424a-ad4f-21c5baa38ae9', name='123', ip='0:0:0:0:0:0:0:0:56845', online=true}
+[2025-09-22 21:09:08] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 21:09:08] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='52062e2b-7c78-424a-ad4f-21c5baa38ae9', name='123', ip='0:0:0:0:0:0:0:0:56845', online=true}
+[2025-09-22 21:09:08] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54492
+[2025-09-22 21:09:08] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from 52062e2b-7c78-424a-ad4f-21c5baa38ae9
+[2025-09-22 21:09:14] [WARNING] [common.network.TCPConnection] Error in receiver thread, connection likely closed: /127.0.0.1:54492
+[2025-09-22 21:09:14] [WARNING] [server.NoteSyncServer] TCP client error: /127.0.0.1:54492
+[2025-09-22 21:09:14] [INFO] [server.ClientManager] Client removed by connection: 52062e2b-7c78-424a-ad4f-21c5baa38ae9
+[2025-09-22 21:09:14] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 21:09:21] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 21:09:21] [INFO] [common.network.UDPConnection] UDP connection stopped
+[2025-09-22 21:09:21] [INFO] [server.ClientManager] Disconnecting all clients...
+[2025-09-22 21:09:21] [INFO] [server.ClientManager] All clients disconnected
+[2025-09-22 21:09:39] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:09:49] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 21:09:49] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 21:09:49] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 21:09:49] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 21:09:49] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 21:09:54] [INFO] [server.NoteSyncServer] New TCP connection from: /127.0.0.1:54550
+[2025-09-22 21:09:54] [INFO] [common.network.TCPConnection] Received message: CLIENT_CONNECT from /127.0.0.1:54550
+[2025-09-22 21:09:54] [INFO] [server.NoteSyncServer] Handling TCP message: CLIENT_CONNECT from daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:09:54] [INFO] [server.ClientManager] Client added: ClientInfo{id='daf68796-3310-4d15-8dd7-659ba863ce23', name='123', ip='0:0:0:0:0:0:0:0:62307', online=true}
+[2025-09-22 21:09:54] [INFO] [server.ClientManager] Total active clients: 1
+[2025-09-22 21:09:54] [INFO] [server.NoteSyncServer] Client connected: ClientInfo{id='daf68796-3310-4d15-8dd7-659ba863ce23', name='123', ip='0:0:0:0:0:0:0:0:62307', online=true}
+[2025-09-22 21:09:54] [INFO] [common.network.TCPConnection] Received message: HEARTBEAT from /127.0.0.1:54550
+[2025-09-22 21:09:54] [INFO] [server.NoteSyncServer] Handling TCP message: HEARTBEAT from daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:09:57] [INFO] [common.network.TCPConnection] Received message: SYNC_REQUEST from /127.0.0.1:54550
+[2025-09-22 21:09:57] [INFO] [server.NoteSyncServer] Handling TCP message: SYNC_REQUEST from daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:09:57] [INFO] [server.NoteSyncServer] Sync request handled for client: daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:10:03] [INFO] [common.network.TCPConnection] Received message: NOTE_CREATE from /127.0.0.1:54550
+[2025-09-22 21:10:03] [INFO] [server.NoteSyncServer] Handling TCP message: NOTE_CREATE from daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:10:03] [INFO] [server.NoteManager] Note added: ae871960-cec0-415d-833c-da3e6406e806
+[2025-09-22 21:10:03] [INFO] [server.ClientManager] Broadcasted message type NOTE_CREATED to 1 clients
+[2025-09-22 21:10:03] [INFO] [server.NoteSyncServer] Note created: ae871960-cec0-415d-833c-da3e6406e806
+[2025-09-22 21:10:04] [WARNING] [common.network.TCPConnection] Error in receiver thread, connection likely closed: /127.0.0.1:54550
+[2025-09-22 21:10:04] [WARNING] [server.NoteSyncServer] TCP client error: /127.0.0.1:54550
+[2025-09-22 21:10:04] [INFO] [server.ClientManager] Client removed by connection: daf68796-3310-4d15-8dd7-659ba863ce23
+[2025-09-22 21:10:04] [INFO] [server.ClientManager] Total active clients: 0
+[2025-09-22 21:10:09] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 21:10:27] [INFO] [common.utils.ConfigManager] Configuration loaded from config.properties
+[2025-09-22 21:10:33] [INFO] [server.NoteSyncServer] Starting Note Sync Server...
+[2025-09-22 21:10:33] [INFO] [common.network.UDPConnection] UDP connection started listening on port: 8081
+[2025-09-22 21:10:33] [INFO] [server.NoteSyncServer] Note Sync Server started successfully
+[2025-09-22 21:10:33] [INFO] [server.NoteSyncServer] TCP Port: 8080
+[2025-09-22 21:10:33] [INFO] [server.NoteSyncServer] UDP Port: 8081
+[2025-09-22 21:10:42] [INFO] [server.NoteSyncServer] Stopping Note Sync Server...
+[2025-09-22 21:10:42] [INFO] [common.network.UDPConnection] UDP connection stopped
+[2025-09-22 21:10:42] [INFO] [server.ClientManager] Disconnecting all clients...
+[2025-09-22 21:10:42] [INFO] [server.ClientManager] All clients disconnected
